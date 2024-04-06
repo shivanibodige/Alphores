@@ -1,0 +1,162 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.outerbox{
+	border: solid 1px;
+	height: 140px;
+	display: flex;
+}
+#box1,#box2,#box3{
+	border: solid 1px;
+	height: 140px;
+
+}
+#box1{
+	width: 250px;
+}
+#box2{
+	width: 1000px;
+	text-align:center;
+	background-color: pink;
+}
+#box3{
+	width: 250px;
+}
+#clgname{
+	color: red;
+	font-size: 50px;
+}
+#text1{
+	font-size: 26px;
+	font-weight: bold;
+}
+#text2{
+	font-size: 28px;
+	font-weight: bold;
+	color: navy;
+}
+#scrolltext{
+	font-size: 22px;
+	font-weight: bold;
+}
+.nav{
+	border: solid 1px;
+	height: 50px;
+}
+ul li{
+	border: solid 1px;
+	height: 50px;
+	width: 157px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	background-color: #61c7c4;
+}
+ul{
+	list-style: none;
+}
+ul li a{
+	color: navy;
+	font-size: 20px;
+	text-decoration: none;
+}
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+.obox{
+	border: solid 1px;
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+#in1,#in2,#in3{
+	border: solid 1px;
+	height: 350px;
+	z-index: -1;
+}
+#in1{
+	width: 600px;
+	background-image: url(imag1.jpg);
+	background-repeat: no-repeat;
+	background-size: 600px 350px;
+	animation-name: imgchange;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+	10%{
+		background-image: url(imag1.jpg);
+	}
+	20%{
+		background-image: url(image2.jpg);
+	}
+	30%{
+		background-image: url(image3.jpg);
+	}
+	40%{
+		background-image: url(image4.jpg);
+	}
+	50%{
+		background-image: url(image5.jpg);
+	}
+	60%{
+		background-image: url(image6.jpg);
+	}
+}
+#in2,#in3{
+	width: 300px;
+}
+#placements{
+	border: solid 1px;
+	height: 300px;	
+}
+.header{
+	border: solid 1px;
+	height: 50px;
+	background-color: navy;
+	line-height: 50px;
+	padding-left: 110px;
+}
+#head1{
+	padding-right: 35px;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+.out{
+	border: solid 1px;
+	height: 420px;
+	display: flex;
+}
+#ug,#pg{
+	border: solid 1px;
+	height: 400px;
+}
+#ug,#pg{
+	width: 700px;
+	margin: 10px;
+
+}
+#course{
+	border: solid 1px;
+	height: 30px;
+	margin: 20px;
+	border-radius: 20px;
+	padding-left: 18px;
+	line-height: 30px;
+	background-color: bisque;
+}
+#ug,#pg{
+	background-color: navy;
+	border-radius: 20px;
+}
+#course:hover{
+	background-color: orange;
+}
+ul li:hover{
+	background-color: orange;
+}
